@@ -1,0 +1,25 @@
+:root {
+    --dark-blue: #1d3557;
+    --light-blue: #2a93fa;
+    --orange: #fca311;
+    --off-white: #f2f9ff;
+    --cream: #f1f1e6;
+  }
+
+.footer {
+    background-color: var(--dark-blue);
+    height: 75px;
+    width: 100%;
+    color: var(--orange);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    bottom: 0;
+    border-radius: 3px;
+    border-top: solid 5px var(--orange);
+}
+
+.footerimg {
+    height: 40px;
+    padding-top: 20px;
+}

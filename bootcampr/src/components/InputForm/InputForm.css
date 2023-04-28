@@ -1,0 +1,54 @@
+:root {
+  --dark-blue: #1d3557;
+  --light-blue: #2a93fa;
+  --orange: #fca311;
+  --off-white: #f2f9ff;
+  --cream: #f1f1e6;
+}
+
+.inputform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: arial;
+  background-color: var(--off-white);
+  border-style: solid;
+  border-color: var(--dark-blue);
+}
+
+.inputitems {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 5% 8% 3% 5%;
+}
+
+textarea {
+  font-family: Arial;
+  color: #333;
+  background-color: var(--off-white);
+  width: 90%;
+  border: 1px solid var(--dark-blue);
+}
+
+input {
+  font-family: Arial;
+  color: #333;
+  background-color: var(--off-white);
+  width: 90%;
+  border: 1px solid var(--dark-blue);
+}
+
+select {
+  background-color: var(--off-white);
+  color: #333;
+  border-radius: 7px;
+  width: 95%;
+  border: 1px solid var(--dark-blue);
+}
+
+button {
+  background-color: var(--dark-blue);
+  color: var(--off-white);
+}

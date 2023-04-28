@@ -1,0 +1,29 @@
+.general {
+    background-color: var(--light-blue);
+  }
+  
+  .funny {
+    background-color: var(--orange);
+  }
+  
+  .question {
+    background-color: var(--dark-blue);
+    color: var(--off-white);
+  }
+  
+  .random {
+    background-color: var(--cream);
+  }
+  
+#commentname {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: -15px;
+  margin-left: 5%;
+}
+
+#commentcontent {
+  font-size: 14px;
+  margin-bottom: 15px;
+  margin-left: 5%;
+}

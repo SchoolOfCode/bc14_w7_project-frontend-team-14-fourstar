@@ -1,0 +1,29 @@
+:root {
+    --dark-blue: #1d3557;
+    --light-blue: #2a93fa;
+    --orange: #fca311;
+    --off-white: #f2f9ff;
+    --cream: #f1f1e6;
+  }
+
+.header {
+    background-color: var(--dark-blue);
+    /*height: 150px;*/
+    width: 100%;
+    color: var(--orange);
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border-radius: 3px;
+    border-bottom: solid 5px var(--orange);
+
+}
+
+h2{
+font-size: 2vw;
+}
+
+.headerimg {
+    height: 80px;
+    padding-top: 20px;
+}
